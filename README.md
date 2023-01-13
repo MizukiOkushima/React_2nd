@@ -9,6 +9,16 @@ Reactを使用してWEBページ内のサイドバーを作成する。<br>
 2. サーバーを立ち上げる。<br>
 `yarn start`<br>
 
+3. Material UIをインストールしiconを導入する。<br>
+yarnを使用して導入する<br>
+`yarn add @mui/material @emotion/react @emotion/styled`<br>
+`yarn add @mui/icons-material`<br>
+
+4. 各iconを<a>https://mui.com/material-ui/material-icons/</a>から探してインポートする。<br>
+`import HomeIcon from '@mui/icons-material/Home';`<br>
+他iconも同様<br>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
